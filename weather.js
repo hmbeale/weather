@@ -3,7 +3,7 @@ const form = document.querySelector("form");
 
 const fetchWeather = (city) =>{
   city = city;
-  fetch(`https:api.openweathermap.org/data/2.5/weather?q=${city}
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}
     &appid=6efa3875a6e7444c141415582068a400`,
   {mode: 'cors'})
     .then(function(response) {
